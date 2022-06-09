@@ -4,6 +4,7 @@
     <!-- TestSessionTimeout was introduced in Visual Studio 2017 version 15.5 -->
     <!-- Specify timeout in milliseconds. A valid value should be greater than 0 -->
     <TestSessionTimeout>60000</TestSessionTimeout>
+    <TargetFrameworkVersion>net5.0</TargetFrameworkVersion>
   </RunConfiguration>
   <TestRunParameters>
     <Parameter name="webAppUrl" value="https://dotnet.microsoft.com/" />
